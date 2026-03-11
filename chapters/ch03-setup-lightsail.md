@@ -37,9 +37,11 @@ AWS Lightsail（ライトセイル）は、Amazon Web Servicesが提供するシ
 4. クレジットカード情報を入力する（無料枠あり、Lightsailは別途課金）
 5. 本人確認（SMSまたは音声通話）を完了する
 
-[📸 スクリーンショット: AWSアカウント作成画面のトップページ]
+> 📌 **参照:** [AWS アカウント作成ページ](https://aws.amazon.com/jp/free/)
+> 画面で確認する内容: AWS公式サイトのトップページにある「AWSアカウントを作成」ボタンをクリックすると、メールアドレスとパスワードの入力画面が開きます。アカウント種別（個人/法人）を選択し、連絡先情報を入力していきます。
 
-[📸 スクリーンショット: AWS管理コンソールのホーム画面]
+> 📌 **参照:** [AWS マネジメントコンソール](https://console.aws.amazon.com/)
+> 画面で確認する内容: アカウント作成後にログインすると、AWSマネジメントコンソールのホーム画面が表示されます。上部の検索バーに「Lightsail」と入力するとサービスが見つかります。
 
 ---
 
@@ -48,13 +50,15 @@ AWS Lightsail（ライトセイル）は、Amazon Web Servicesが提供するシ
 1. AWS管理コンソールの検索バーに「Lightsail」と入力し、サービスを開く
 2. 「インスタンスの作成」ボタンをクリックする
 
-[📸 スクリーンショット: Lightsailのトップページ。「インスタンスの作成」ボタンが見える]
+> 📌 **参照:** [Amazon Lightsail 公式ドキュメント](https://docs.aws.amazon.com/lightsail/)
+> 画面で確認する内容: Lightsailのトップページを開くと、中央または右上に「インスタンスの作成」または「Create instance」ボタンが表示されます。既存のインスタンスがある場合はその一覧が表示され、その右上や下部に作成ボタンがあります。
 
 3. **インスタンスのロケーション:** 「東京」リージョンを選ぶ（日本から使う場合は遅延が少ない）
 4. **プラットフォーム:** 「Linux/Unix」を選択
 5. **ブループリント:** 「オペレーティングシステム(OS のみ)」→「Ubuntu 22.04 LTS」を選択
 
-[📸 スクリーンショット: Lightsailインスタンス作成画面。UbuntuとOSのみを選択した状態]
+> 📌 **参照:** [Amazon Lightsail 公式ドキュメント — インスタンス作成](https://docs.aws.amazon.com/lightsail/latest/userguide/how-to-create-amazon-lightsail-instance-virtual-private-server-vps.html)
+> 画面で確認する内容: インスタンス作成画面では、まずプラットフォームとして「Linux/Unix」を選択し、次にブループリントで「OS のみ」タブを選んで「Ubuntu 22.04 LTS」をクリックします。選択したブループリントには青いチェックマークが付きます。
 
 6. **インスタンスプラン:** $10/月（Microプラン推奨）を選択
 7. **インスタンス名:** 好きな名前をつける（例: `openclaw-server`）
@@ -62,7 +66,8 @@ AWS Lightsail（ライトセイル）は、Amazon Web Servicesが提供するシ
 
 数十秒〜1分ほどで「実行中」になる。
 
-[📸 スクリーンショット: Lightsailのインスタンス一覧。作成したインスタンスが「実行中」になっている]
+> 📌 **参照:** [Amazon Lightsail 公式ドキュメント](https://docs.aws.amazon.com/lightsail/)
+> 画面で確認する内容: 「インスタンスを作成」をクリックしてからLightsailのインスタンス一覧に戻ると、作成したインスタンスが「保留中」から「実行中」に変わります（通常1分以内）。ステータスが緑色の「実行中」になれば起動成功です。
 
 ---
 
@@ -76,7 +81,8 @@ AWS Lightsail（ライトセイル）は、Amazon Web Servicesが提供するシ
 2. 「静的 IP の作成」をクリック
 3. 先ほど作成したインスタンスに紐付ける
 
-[📸 スクリーンショット: Lightsailのネットワーキング画面。静的IPをインスタンスにアタッチしている]
+> 📌 **参照:** [Amazon Lightsail — 静的IP設定](https://docs.aws.amazon.com/lightsail/latest/userguide/lightsail-create-static-ip.html)
+> 画面で確認する内容: 「ネットワーキング」タブを開くと「静的 IP の作成」ボタンが表示されます。作成後、ドロップダウンからアタッチするインスタンスを選択します。アタッチ完了後、インスタンス詳細画面のIPアドレス欄が固定IPに変わります。
 
 > 💡 **ポイント:** 静的IPはインスタンスに割り当てている間は無料。インスタンスを削除して静的IPだけ残すと課金される。不要になったら一緒に削除しよう。
 
@@ -84,7 +90,8 @@ AWS Lightsail（ライトセイル）は、Amazon Web Servicesが提供するシ
 
 Lightsailのコンソールから直接ブラウザでSSH接続できる。インスタンスをクリック→「SSH を使用して接続する」ボタンを押すだけだ。
 
-[📸 スクリーンショット: LightsailのSSHブラウザコンソール画面]
+> 📌 **参照:** [Amazon Lightsail — ブラウザベースのSSH接続](https://docs.aws.amazon.com/lightsail/latest/userguide/lightsail-how-to-connect-to-your-instance-virtual-private-server.html)
+> 画面で確認する内容: インスタンスの詳細ページ上部にある「SSH を使用して接続する」ボタンをクリックすると、ブラウザ内に黒いターミナル画面（SSHコンソール）が開きます。`ubuntu@ip-xxx-xxx-xxx-xxx:~$` のようなプロンプトが表示されれば接続成功です。
 
 ローカルのターミナルからSSH接続する場合は、Lightsailのキーペア（.pemファイル）を使う:
 
@@ -224,7 +231,7 @@ $ sudo systemctl status openclaw
 
 `Active: active (running)`と表示されれば成功だ。
 
-[📸 スクリーンショット: sudo systemctl status openclawの出力。active (running)と表示されている]
+> 画面で確認する内容: `sudo systemctl status openclaw` を実行すると、サービスの状態が表示されます。`Active: active (running) since ...` という行が表示されれば正常に動作しています。`inactive (dead)` や `failed` と表示された場合は、ログを確認して原因を調査します。
 
 ### ログの確認
 
@@ -294,7 +301,8 @@ $ sudo certbot --nginx -d myagent.example.com
 
 メールアドレスの入力と利用規約への同意を求められる。完了すると自動的にNginxの設定がHTTPS対応に更新される。
 
-[📸 スクリーンショット: certbotの実行結果。「Congratulations! Your certificate and chain have been saved」と表示されている]
+> 📌 **参照:** [Let's Encrypt 公式ドキュメント](https://letsencrypt.org/docs/)
+> 画面で確認する内容: Certbot実行後、正常に証明書が発行されると `Congratulations! Your certificate and chain have been saved at: /etc/letsencrypt/live/yourdomain.com/fullchain.pem` のようなメッセージが表示されます。Nginxの設定も自動的に更新され、HTTPSでのアクセスが可能になります。
 
 証明書は90日で期限切れになるが、Certbotが自動更新を設定してくれる:
 

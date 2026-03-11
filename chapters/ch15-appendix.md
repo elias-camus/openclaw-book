@@ -546,32 +546,30 @@ A: [回答]
 
 ---
 
-## 付録I　スクリーンショット撮影箇所リスト
+## 付録I　手順解説の参照リンク一覧
 
-本書には手順説明箇所に `[📸 スクリーンショット: ...]` というプレースホルダーが含まれています。実際の書籍版では以下の画面のスクリーンショットを挿入します。
+各章の手順説明箇所には、スクリーンショットの代わりにテキストによる操作説明と公式サイトへの参照リンクを掲載しています。主要な参照先を以下にまとめます。
 
 **第2章（Mac Mini環境構築）:**
-- Homebrewインストール後のターミナル表示
-- Node.jsバージョン確認画面
-- OpenClawインストール完了画面
-- openclaw gatewayの起動画面
+- macOSのスリープ設定: [Apple サポート](https://support.apple.com/ja-jp/guide/mac-help/mchle41a6ccd/mac)
+- リモートログイン設定: [Apple サポート](https://support.apple.com/ja-jp/guide/mac-help/mchlp1066/mac)
+- Homebrew インストール: [brew.sh](https://brew.sh)
+- OpenClaw ドキュメント: [docs.openclaw.ai](https://docs.openclaw.ai)
 
 **第3章（AWS Lightsail）:**
-- Lightsailのインスタンス作成画面
-- セキュリティグループの設定画面
-- SSL証明書設定完了の確認
+- AWSアカウント作成: [aws.amazon.com/jp/free/](https://aws.amazon.com/jp/free/)
+- Lightsail公式ドキュメント: [docs.aws.amazon.com/lightsail/](https://docs.aws.amazon.com/lightsail/)
+- 静的IP設定: [Lightsail静的IPドキュメント](https://docs.aws.amazon.com/lightsail/latest/userguide/lightsail-create-static-ip.html)
+- Let's Encrypt: [letsencrypt.org/docs/](https://letsencrypt.org/docs/)
 
 **第4章（チャンネル連携）:**
-- Discord Developer Portalのアプリ作成画面
-  （https://discord.com/developers/applications）
-- LINE Developers ConsoleのMessaging API設定画面
-  （https://developers.line.biz/console）
-- Telegram BotFatherとの会話画面
+- Discord Developer Portal: [discord.com/developers/applications](https://discord.com/developers/applications)
+- LINE Developers Console: [developers.line.biz/console/](https://developers.line.biz/console/)
+- Telegram BotFather: [core.telegram.org/bots/tutorial](https://core.telegram.org/bots/tutorial)
+- Slack API: [api.slack.com/apps](https://api.slack.com/apps)
 
 **第5章（AIモデル設定）:**
-- Anthropic ConsoleのAPIキー生成画面
-  （https://console.anthropic.com/settings/keys）
-- OpenAI PlatformのAPIキー画面
-  （https://platform.openai.com/api-keys）
+- OpenAI Platform（APIキー）: [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+- Anthropic Console（APIキー）: [console.anthropic.com](https://console.anthropic.com)
 
-> 📌 各サービスのUIは随時変更されます。最新の画面は各公式サイトをご参照ください。
+> 📌 各サービスのUIは随時変更されます。最新の操作方法は各公式サイトをご参照ください。
