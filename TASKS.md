@@ -11,8 +11,8 @@
 | TASK-03 | 第3章 Lightsail環境構築 | ✅ done | Codex | スクショプレースホルダー付き |
 | TASK-04 | 第4章 チャンネル連携 | ✅ done | Codex | Discord/Telegram/Slack等 |
 | TASK-05 | 第5章 AIモデル設定 | ✅ done | Codex | モデル比較表含む |
-| TASK-06 | 第6章 メモリ | ⏳ pending | Codex | SOUL.md/USER.md解説 |
-| TASK-07 | 第7章 スキルシステム | ⏳ pending | Codex | Clawhub/自作スキル |
+| TASK-06 | 第6章 メモリ | ✅ done | Codex | SOUL.md/USER.md解説 |
+| TASK-07 | 第7章 スキルシステム | ✅ done | Codex | Clawhub/自作スキル |
 | TASK-08 | 第8章 Cron・自動化 | ⏳ pending | Codex | Moltbook・自律運用コツ |
 | TASK-09 | 第9章 ブラウザ自動化 | ⏳ pending | Codex | Browser Relay |
 | TASK-10 | 第10章 ビジネス活用基本 | ⏳ pending | Codex | スモールビジネス事例 |
