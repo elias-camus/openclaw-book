@@ -6,7 +6,7 @@
 
 | タスクID | 対象 | 状態 | 担当 | 備考 |
 |---|---|---|---|---|
-| TASK-01 | はじめに + 第1章 | ⏳ pending | Codex | 概念・全体像 |
+| TASK-01 | はじめに + 第1章 | ✅ done | Codex | 概念・全体像 |
 | TASK-02 | 第2章 Mac Mini環境構築 | ⏳ pending | Codex | スクショプレースホルダー付き |
 | TASK-03 | 第3章 Lightsail環境構築 | ⏳ pending | Codex | スクショプレースホルダー付き |
 | TASK-04 | 第4章 チャンネル連携 | ⏳ pending | Codex | Discord/Telegram/Slack等 |
