@@ -13,8 +13,8 @@
 | TASK-05 | 第5章 AIモデル設定 | ✅ done | Codex | モデル比較表含む |
 | TASK-06 | 第6章 メモリ | ✅ done | Codex | SOUL.md/USER.md解説 |
 | TASK-07 | 第7章 スキルシステム | ✅ done | Codex | Clawhub/自作スキル |
-| TASK-08 | 第8章 Cron・自動化 | ⏳ pending | Codex | Moltbook・自律運用コツ |
-| TASK-09 | 第9章 ブラウザ自動化 | ⏳ pending | Codex | Browser Relay |
+| TASK-08 | 第8章 Cron・自動化 | ✅ done | Codex | Moltbook・自律運用コツ |
+| TASK-09 | 第9章 ブラウザ自動化 | ✅ done | Codex | Browser Relay |
 | TASK-10 | 第10章 ビジネス活用基本 | ⏳ pending | Codex | スモールビジネス事例 |
 | TASK-11 | 第11章 ビジネス活用応用 | ⏳ pending | Codex | マルチエージェント・Moltbook |
 | TASK-12 | 第12章 セキュリティ | ⏳ pending | Codex | promptインジェクション等 |
