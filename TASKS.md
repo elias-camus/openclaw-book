@@ -15,11 +15,11 @@
 | TASK-07 | 第7章 スキルシステム | ✅ done | Codex | Clawhub/自作スキル |
 | TASK-08 | 第8章 Cron・自動化 | ✅ done | Codex | Moltbook・自律運用コツ |
 | TASK-09 | 第9章 ブラウザ自動化 | ✅ done | Codex | Browser Relay |
-| TASK-10 | 第10章 ビジネス活用基本 | ⏳ pending | Codex | スモールビジネス事例 |
-| TASK-11 | 第11章 ビジネス活用応用 | ⏳ pending | Codex | マルチエージェント・Moltbook |
-| TASK-12 | 第12章 セキュリティ | ⏳ pending | Codex | promptインジェクション等 |
-| TASK-13 | 第13章 カスタマイズ | ⏳ pending | Codex | ペルソナ設計 |
-| TASK-14 | おわりに + 付録 | ⏳ pending | Codex | リファレンス・Q&A |
+| TASK-10 | 第10章 ビジネス活用基本 | ✅ done | Codex | スモールビジネス事例 |
+| TASK-11 | 第11章 ビジネス活用応用 | ✅ done | Codex | マルチエージェント・Moltbook |
+| TASK-12 | 第12章 セキュリティ | ✅ done | Codex | promptインジェクション等 |
+| TASK-13 | 第13章 カスタマイズ | ✅ done | Codex | ペルソナ設計 |
+| TASK-14 | おわりに + 付録 | ✅ done | Codex | リファレンス・Q&A |
 
 ## 状態凡例
 - ⏳ pending: 未着手
