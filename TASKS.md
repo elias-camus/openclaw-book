@@ -9,8 +9,8 @@
 | TASK-01 | はじめに + 第1章 | ✅ done | Codex | 概念・全体像 |
 | TASK-02 | 第2章 Mac Mini環境構築 | ✅ done | Codex | スクショプレースホルダー付き |
 | TASK-03 | 第3章 Lightsail環境構築 | ✅ done | Codex | スクショプレースホルダー付き |
-| TASK-04 | 第4章 チャンネル連携 | ⏳ pending | Codex | Discord/Telegram/Slack等 |
-| TASK-05 | 第5章 AIモデル設定 | ⏳ pending | Codex | モデル比較表含む |
+| TASK-04 | 第4章 チャンネル連携 | ✅ done | Codex | Discord/Telegram/Slack等 |
+| TASK-05 | 第5章 AIモデル設定 | ✅ done | Codex | モデル比較表含む |
 | TASK-06 | 第6章 メモリ | ⏳ pending | Codex | SOUL.md/USER.md解説 |
 | TASK-07 | 第7章 スキルシステム | ⏳ pending | Codex | Clawhub/自作スキル |
 | TASK-08 | 第8章 Cron・自動化 | ⏳ pending | Codex | Moltbook・自律運用コツ |
